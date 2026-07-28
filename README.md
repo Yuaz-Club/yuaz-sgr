@@ -11,7 +11,7 @@ Yuaz SGR (Singing Generative Refinement) — 基于 DDSP + Flow Matching 的歌�
 ### 论文
 
 > 论文标题: *A Vector Quantized Approach for Text to Speech Synthesis on Real-World Spontaneous Speech*
-> 详见 `yuaz_sgr/scripts/paper15_full.txt`
+> 详见 `论文/paper15_full.txt`
 
 ## 项目结构
 

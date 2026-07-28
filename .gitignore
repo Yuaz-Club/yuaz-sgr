@@ -64,8 +64,8 @@ scripts/
 # 训练目录
 训练/
 
-# 论文
-论文/
+# 论文中不需要的文件
+论文/ppp.txt
 
 # VSQX/MID/UST 测试文件
 vsqx/
@@ -79,9 +79,8 @@ vsqx/
 *.bak
 phoneme_map_59.json
 server_phoneme_map.json
-paper15.pdf
-paper15.docx
-paper15_text.txt
+/paper15.docx
+/paper15_text.txt
 build_phoneme_map.py
 causal_diag.py
 fix_bom.py
