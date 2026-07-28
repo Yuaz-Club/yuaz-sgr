@@ -6,25 +6,35 @@
 
 This project reproduces a cutting-edge singing voice synthesis system using DDSP (Differentiable Digital Signal Processing) and Flow Matching technologies, achieving high-fidelity Chinese singing voice synthesis.
 
-**The world's first complete reproduction and open-source implementation of this paper using a Chinese dataset.** (See [论文/paper15.pdf](论文/paper15.pdf) for the original paper)
+**The world's first complete reproduction and open-source implementation using a Chinese dataset.**
+
+### Paper
+
+> Title: *A Vector Quantized Approach for Text to Speech Synthesis on Real-World Spontaneous Speech*
+> See `yuaz_sgr/scripts/paper15_full.txt` for the full text.
 
 ## Project Structure
 
 ```
 yuaz-sgr/
-├── yuaz_sgr/                    # Core training code
-│   ├── models/                  # Model definitions (Encoder, RVQ, DDSP, Flow Matching)
-│   ├── train/                   # Training scripts
-│   ├── data/                    # Data processing
-│   ├── scripts/                 # Preprocessing / inference scripts
-│   ├── losses/                  # Loss functions
-│   └── utils/                   # Utility functions
-├── yuaz_sgr_inference/          # Lightweight inference package
-│   └── checkpoint_300k.pt       # Final purified model (94MB)
-├── yuaz_sgr_finetune_inference/ # Fine-tuning code
-├── 训练/                         # Training configs and scripts
-├── 论文/                         # Reference paper
-└── vsqx/                        # VSQX test files
+├── yuaz_sgr/                           # Core training code
+│   ├── models/                         # Model definitions (Encoder, RVQ, DDSP, Flow Matching)
+│   ├── train/                          # Training scripts
+│   ├── data/                           # Data processing & OpenCPOP dataset
+│   ├── scripts/                        # Preprocessing / inference scripts
+│   ├── losses/                         # Loss functions
+│   └── utils/                          # Utility functions
+├── yuaz_sgr_inference/                 # Lightweight inference package
+│   ├── yuaz_sgr/                       # Model code
+│   ├── checkpoint_300k.pt              # Pretrained model (300K steps, 94MB)
+│   └── example.py                      # Inference example
+├── yuaz_sgr_finetune_inference/        # Fine-tuning inference package
+│   ├── yuaz_sgr/                       # Model code
+│   ├── freeze_final.pt                 # Fine-tuned model (94MB)
+│   ├── train_freeze.py                 # Fine-tuning script
+│   └── example.py                      # Inference example
+├── README.md                           # Chinese docs
+└── README.en.md                        # English docs
 ```
 
 ## Model Architecture
@@ -36,13 +46,32 @@ yuaz-sgr/
 - **Flow Matching Generator**: ODE integration for latent variable generation
 - **F0Predictor**: Independent F0 refinement from μ
 
+## Pretrained Models
+
+This repository includes two pretrained models:
+
+| Model | File | Size | Description |
+|-------|------|------|-------------|
+| Base Model | `yuaz_sgr_inference/checkpoint_300k.pt` | 94MB | 300K steps, purified (weights only) |
+| Fine-tuned Model | `yuaz_sgr_finetune_inference/freeze_final.pt` | 94MB | Fine-tuned with frozen decoder for better pronunciation |
+
 ## Inference
 
 ```bash
+# Inference with base model
 cd yuaz_sgr_inference/
 pip install -r requirements.txt
 python example.py
+
+# Inference with fine-tuned model
+cd yuaz_sgr_finetune_inference/
+pip install -r requirements.txt
+python example.py
 ```
+
+## Dataset
+
+This project uses the [OpenCPOP](https://github.com/yxlllc/OpenCPOP) Chinese singing dataset for training.
 
 ## License
 

@@ -6,10 +6,6 @@ __pycache__/
 dist/
 build/
 
-# Checkpoints (太大了，不上传)
-*.pt
-*.pth
-
 # 音频文件
 *.wav
 *.mp3
@@ -24,9 +20,80 @@ build/
 opencpop/
 opencpop_segments.zip
 local_ckpt/
+
+# 太大的检查点文件(>100MB, 超过GitHub限制)
+yuaz_sgr_finetune_inference/finetune_030000.pt
 local_audio/
 synthesis_test/
 ae_test/
+李老师/
+
+# 不重要的测试/诊断脚本
+check_*.py
+check_*.sh
+chk_*.py
+test_*.py
+tmp_*.py
+tmp_*.sh
+diag*.py
+diag*.sh
+debug_*.py
+debug_*.sh
+deep_diag*.py
+overfit_*.py
+quick_test*.py
+fix_*.py
+verify_*.py
+final_diag*.py
+infer_*.py
+infer_*.sh
+local_infer*.py
+kill_*.sh
+restart_*.sh
+reinstall_*.sh
+install_*.sh
+setup_*.sh
+run_*.sh
+download_*.sh
+fix_*.sh
+check_*.sh
+train_and_test.sh
+verify_opencpop.sh
+scripts/
+
+# 训练目录
+训练/
+
+# 论文
+论文/
+
+# VSQX/MID/UST 测试文件
+vsqx/
+*.vsqx
+*.ust
+*.ustx
+*.mid
+
+# 杂项
+*.b64
+*.bak
+phoneme_map_59.json
+server_phoneme_map.json
+paper15.pdf
+paper15.docx
+paper15_text.txt
+build_phoneme_map.py
+causal_diag.py
+fix_bom.py
+fix_f0_data.py
+lambda_test.py
+parse_vsqx*.py
+recon_cpu.py
+shape_check.py
+vsqx_infer.py
+ust_infer.py
+ust_infer_server.py
+midi_infer.py
 
 # SSL 密钥
 *.pem
