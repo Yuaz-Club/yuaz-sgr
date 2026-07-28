@@ -120,7 +120,7 @@ def main():
         print("\n加载模型...")
         singer = YuazSinger(checkpoint_path, device="cpu")
 
-        print("合成中 (n_steps=8, use_predicted_f0=True)...")
+        print("合成中 (n_steps=8, use_predicted_f0=False, 原始F0)...")
         import time
         t0 = time.time()
 
@@ -129,7 +129,7 @@ def main():
             lyrics=lyrics,
             output_path=output_wav,
             predict_durations=False,
-            use_predicted_f0=True,
+            use_predicted_f0=False,
             n_steps=8,
         )
         elapsed = time.time() - t0
