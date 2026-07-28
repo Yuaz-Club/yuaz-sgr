@@ -8,7 +8,7 @@ Yuaz SGR (Singing Generative Refinement) — 基于 DDSP + Flow Matching 的歌�
 
 ### 论文
 
-本项目基于以下论文复现（见 [论文/paper15.pdf](论文/paper15.pdf)）：
+**全球首个基于中文数据集完整复现并开源的项目。**（见 [论文/paper15.pdf](论文/paper15.pdf)）
 
 > **论文标题**: 详见 `论文/paper15.pdf`
 
