@@ -51,7 +51,7 @@ yuaz-sgr/
 
 ## Inference Performance
 
-Measured on **CPU (Intel)**:
+Measured on **CPU (AMD Ryzen 5 3500U)**:
 
 | Metric | Value |
 |--------|-------|
