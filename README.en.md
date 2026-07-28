@@ -49,6 +49,14 @@ yuaz-sgr/
 - **Flow Matching Generator**: ODE integration for latent variable generation
 - **F0Predictor**: Independent F0 refinement from μ
 
+## Audio Demo
+
+<audio controls src="示例.wav">
+  Your browser does not support the audio tag. Download [示例.wav](示例.wav) to listen.
+</audio>
+
+> Song: 这世界那么多人 (VSQX tuned), synthesized with original F0, n_steps=8
+
 ## Inference Performance
 
 Measured on **CPU (AMD Ryzen 5 3500U)**:

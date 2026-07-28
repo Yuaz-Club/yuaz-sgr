@@ -49,6 +49,14 @@ yuaz-sgr/
 - **Flow Matching Generator**: ODE 积分生成潜变量
 - **F0Predictor**: 从 μ 独立预测精炼 F0
 
+## 音频示例
+
+<audio controls src="示例.wav">
+  您的浏览器不支持 audio 标签，请下载 [示例.wav](示例.wav) 收听。
+</audio>
+
+> 歌曲: 这世界那么多人 (VSQX 调音版)，使用原始 F0 合成，n_steps=8
+
 ## 推理性能
 
 在 **CPU (AMD Ryzen 5 3500U)** 上实测性能：
