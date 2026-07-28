@@ -27,12 +27,15 @@ yuaz-sgr/
 ├── yuaz_sgr_inference/                 # 推理包 (轻量级，可独立部署)
 │   ├── yuaz_sgr/                       # 模型代码
 │   ├── checkpoint_300k.pt              # 预训练模型 (300K steps, 94MB)
+│   ├── infer_vsqx.py                   # VSQX 文件推理脚本
 │   └── example.py                      # 推理示例
 ├── yuaz_sgr_finetune_inference/        # 微调推理包
 │   ├── yuaz_sgr/                       # 模型代码
 │   ├── freeze_final.pt                 # 微调模型 (94MB)
 │   ├── train_freeze.py                 # 微调脚本
 │   └── example.py                      # 推理示例
+├── 示例.wav                            # VSQX 推理输出示例
+├── 论文/                               # 参考论文
 ├── README.md                           # 中文文档
 └── README.en.md                        # English docs
 ```
@@ -46,6 +49,20 @@ yuaz-sgr/
 - **Flow Matching Generator**: ODE 积分生成潜变量
 - **F0Predictor**: 从 μ 独立预测精炼 F0
 
+## 推理性能
+
+在 **CPU (Intel)** 上实测性能：
+
+| 指标 | 数值 |
+|------|------|
+| 模型大小 | 94MB (提纯后仅含权重) |
+| 推理速度 (n_steps=8) | RTF = 0.821 (4分15秒歌曲 → 3分29秒合成, 比实时快) |
+| CPU 推理内存占用 | ~1.9 GB |
+| ODE 步数 | 支持 1~16 步, 8步即可获得高质量结果 |
+| 采样率 | 24 kHz |
+
+> RTF (Real-Time Factor) < 1 表示合成速度快于音频实际时长，即使在 CPU 上也能实现实时或超实时合成。
+
 ## 预训练模型
 
 本仓库包含两个预训练模型：
@@ -58,7 +75,7 @@ yuaz-sgr/
 ## 推理
 
 ```bash
-# 使用基础模型推理
+# 使用基础模型推理 (从音素合成)
 cd yuaz_sgr_inference/
 pip install -r requirements.txt
 python example.py

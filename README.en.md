@@ -27,12 +27,15 @@ yuaz-sgr/
 ├── yuaz_sgr_inference/                 # Lightweight inference package
 │   ├── yuaz_sgr/                       # Model code
 │   ├── checkpoint_300k.pt              # Pretrained model (300K steps, 94MB)
+│   ├── infer_vsqx.py                   # VSQX inference script
 │   └── example.py                      # Inference example
 ├── yuaz_sgr_finetune_inference/        # Fine-tuning inference package
 │   ├── yuaz_sgr/                       # Model code
 │   ├── freeze_final.pt                 # Fine-tuned model (94MB)
 │   ├── train_freeze.py                 # Fine-tuning script
 │   └── example.py                      # Inference example
+├── 示例.wav                            # VSQX inference demo output
+├── 论文/                               # Reference paper
 ├── README.md                           # Chinese docs
 └── README.en.md                        # English docs
 ```
@@ -46,6 +49,20 @@ yuaz-sgr/
 - **Flow Matching Generator**: ODE integration for latent variable generation
 - **F0Predictor**: Independent F0 refinement from μ
 
+## Inference Performance
+
+Measured on **CPU (Intel)**:
+
+| Metric | Value |
+|--------|-------|
+| Model size | 94MB (purified, weights only) |
+| Inference speed (n_steps=8) | RTF = 0.821 (255s song → 209s synthesis, faster than real-time) |
+| CPU memory usage | ~1.9 GB |
+| ODE steps | Supports 1~16 steps, 8 steps for high quality |
+| Sample rate | 24 kHz |
+
+> RTF (Real-Time Factor) < 1 means synthesis is faster than the audio duration, achieving real-time or better performance even on CPU.
+
 ## Pretrained Models
 
 This repository includes two pretrained models:
@@ -58,7 +75,7 @@ This repository includes two pretrained models:
 ## Inference
 
 ```bash
-# Inference with base model
+# Inference with base model (phoneme-level synthesis)
 cd yuaz_sgr_inference/
 pip install -r requirements.txt
 python example.py
