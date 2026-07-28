@@ -51,9 +51,11 @@ yuaz-sgr/
 
 ## 音频示例
 
-<audio controls src="https://github.com/user-attachments/files/30454901/default.wav">
+<audio controls src="示例.wav">
   您的浏览器不支持 audio 标签，请下载 [示例.wav](示例.wav) 收听。
 </audio>
+
+音频直链：`https://github.com/user-attachments/files/30454901/default.wav`
 
 > 歌曲: 这世界那么多人 (VSQX 调音版)，使用原始 F0 合成，n_steps=8
 

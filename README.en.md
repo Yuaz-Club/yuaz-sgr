@@ -51,9 +51,11 @@ yuaz-sgr/
 
 ## Audio Demo
 
-<audio controls src="https://github.com/user-attachments/files/30454901/default.wav">
+<audio controls src="示例.wav">
   Your browser does not support the audio tag. Download [示例.wav](示例.wav) to listen.
 </audio>
+
+Direct audio link: `https://github.com/user-attachments/files/30454901/default.wav`
 
 > Song: 这世界那么多人 (VSQX tuned), synthesized with original F0, n_steps=8
 
