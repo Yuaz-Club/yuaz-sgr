@@ -51,7 +51,7 @@ yuaz-sgr/
 
 ## Audio Demo
 
-<audio controls src="示例.wav">
+<audio controls src="https://github.com/user-attachments/files/30454901/default.wav">
   Your browser does not support the audio tag. Download [示例.wav](示例.wav) to listen.
 </audio>
 

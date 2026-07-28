@@ -51,7 +51,7 @@ yuaz-sgr/
 
 ## 音频示例
 
-<audio controls src="示例.wav">
+<audio controls src="https://github.com/user-attachments/files/30454901/default.wav">
   您的浏览器不支持 audio 标签，请下载 [示例.wav](示例.wav) 收听。
 </audio>
 
