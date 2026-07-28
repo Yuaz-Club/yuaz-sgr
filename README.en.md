@@ -10,7 +10,7 @@ This project reproduces a cutting-edge singing voice synthesis system using DDSP
 
 ### Paper
 
-> Title: *A Vector Quantized Approach for Text to Speech Synthesis on Real-World Spontaneous Speech*
+> Title: *Singing voice synthesis via latent flow matching and differentiable digital signal processing*
 > See `论文/paper15_full.txt` for the full text.
 
 ## Project Structure
