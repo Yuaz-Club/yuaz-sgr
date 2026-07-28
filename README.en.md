@@ -57,7 +57,7 @@ Measured on **CPU (Intel)**:
 |--------|-------|
 | Model size | 94MB (purified, weights only) |
 | Inference speed (n_steps=8) | RTF = 0.821 (255s song → 209s synthesis, faster than real-time) |
-| CPU memory usage | ~1.9 GB |
+| CPU memory usage | ~283 MB (load+inference delta) |
 | ODE steps | Supports 1~16 steps, 8 steps for high quality |
 | Sample rate | 24 kHz |
 
