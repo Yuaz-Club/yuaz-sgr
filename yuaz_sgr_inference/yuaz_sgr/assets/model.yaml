@@ -1,0 +1,52 @@
+# 论文 §4.3: 架构超参数
+
+# Encoder (论文 §4.3.1)
+encoder:
+  hidden_dim: 512
+  latent_dim: 128        # z₁ 维度
+  n_mfcc: 30             # 论文 §4.3.1: DDSP MFCC (原始 30 维)
+  n_fft: 1024
+  hop_length: 256
+
+# RVQ (论文 §4.3.1)
+rvq:
+  num_quantizers: 8
+  codebook_size: 1024
+  codebook_dim: 128
+  commitment_weight: 1.0
+
+# DDSP Decoder (论文 §3.1.3: STFT window=2048, 75% overlap → hop=512)
+ddsp:
+  n_harmonics: 60        # K=60
+  fft_size: 2048          # 论文: "window length of 2048 samples"
+  hop_length: 512         # 论文: "75% overlap" → 2048*0.25=512
+  hidden_dim: 128
+  emformer_num_layers: 4
+  emformer_num_heads: 8
+  emformer_ffn_dim: 512
+  emformer_segment_length: 32
+  emformer_left_context: 8
+  emformer_right_context: 4
+
+# Flow Matching Generator (论文 §4.3.2)
+flow_matching:
+  input_dim: 128          # μ 维度
+  output_dim: 129         # 128(v_t) + 1(F0_refined)
+  hidden_dim: 256
+  num_blocks: 6
+  time_dim: 64            # sinusoidal time embedding 维度
+
+# Conditioning Encoder (论文 §4.3.2)
+conditioning:
+  num_phonemes: 60        # OpenCPOP 含 AP/SP 共 60 音素
+  cond_dim: 128           # μ 输出维度, 与 z₁ 对齐
+  phoneme_dim: 256
+
+# Temporal Predictor (论文 §3.3)
+temporal:
+  cond_dim: 128
+
+# Discriminator (论文 §3.1.4)
+discriminator:
+  mpd_periods: [2, 3, 5, 7, 11]
+  msd_scales: 3

@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Checkpoints (太大了，不上传)
+*.pt
+*.pth
+
+# 音频文件
+*.wav
+*.mp3
+*.flac
+
+# 预处理数据
+*.npz
+*.pkf
+*.npy
+
+# 数据集
+opencpop/
+local_ckpt/
+local_audio/
+synthesis_test/
+ae_test/
+
+# SSL 密钥
+*.pem
+*.key
+
+# 日志
+*.log
+*.jsonl
+training_log_*.jsonl
+
+# 系统
+.DS_Store
+Thumbs.db
+.DS_Store?

@@ -1,0 +1,232 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 6.94
+tiers? <exists>
+size = 2
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "words"
+        xmin = 0
+        xmax = 6.94
+        intervals: size = 18
+        intervals [1]:
+            xmin = 0
+            xmax = 0.480525
+            text = "chui"
+        intervals [2]:
+            xmin = 0.480525
+            xmax = 0.878472
+            text = "zhe"
+        intervals [3]:
+            xmin = 0.878472
+            xmax = 1.42838
+            text = "qian"
+        intervals [4]:
+            xmin = 1.42838
+            xmax = 1.86912
+            text = "zou"
+        intervals [5]:
+            xmin = 1.86912
+            xmax = 2.38903
+            text = "wang"
+        intervals [6]:
+            xmin = 2.38903
+            xmax = 2.75801
+            text = "zhe"
+        intervals [7]:
+            xmin = 2.75801
+            xmax = 3.24829
+            text = "tian"
+        intervals [8]:
+            xmin = 3.24829
+            xmax = 3.48946
+            text = "kong"
+        intervals [9]:
+            xmin = 3.48946
+            xmax = 3.68794
+            text = "wo"
+        intervals [10]:
+            xmin = 3.68794
+            xmax = 4.20842
+            text = "xiang"
+        intervals [11]:
+            xmin = 4.20842
+            xmax = 4.46
+            text = "qi"
+        intervals [12]:
+            xmin = 4.46
+            xmax = 4.6493
+            text = "AP"
+        intervals [13]:
+            xmin = 4.6493
+            xmax = 5.1375
+            text = "hua"
+        intervals [14]:
+            xmin = 5.1375
+            xmax = 5.55824
+            text = "ban"
+        intervals [15]:
+            xmin = 5.55824
+            xmax = 5.86941
+            text = "shi"
+        intervals [16]:
+            xmin = 5.86941
+            xmax = 6.09875
+            text = "zhe"
+        intervals [17]:
+            xmin = 6.09875
+            xmax = 6.52844
+            text = "diao"
+        intervals [18]:
+            xmin = 6.52844
+            xmax = 6.94
+            text = "luo"
+    item [2]:
+        class = "IntervalTier"
+        name = "phones"
+        xmin = 0
+        xmax = 6.94
+        intervals: size = 35
+        intervals [1]:
+            xmin = 0
+            xmax = 0.146646
+            text = "ch"
+        intervals [2]:
+            xmin = 0.146646
+            xmax = 0.480525
+            text = "ui"
+        intervals [3]:
+            xmin = 0.480525
+            xmax = 0.586354
+            text = "zh"
+        intervals [4]:
+            xmin = 0.586354
+            xmax = 0.878472
+            text = "e"
+        intervals [5]:
+            xmin = 0.878472
+            xmax = 1.0464
+            text = "q"
+        intervals [6]:
+            xmin = 1.0464
+            xmax = 1.42838
+            text = "ian"
+        intervals [7]:
+            xmin = 1.42838
+            xmax = 1.53873
+            text = "z"
+        intervals [8]:
+            xmin = 1.53873
+            xmax = 1.86912
+            text = "ou"
+        intervals [9]:
+            xmin = 1.86912
+            xmax = 1.95811
+            text = "w"
+        intervals [10]:
+            xmin = 1.95811
+            xmax = 2.38903
+            text = "ang"
+        intervals [11]:
+            xmin = 2.38903
+            xmax = 2.43644
+            text = "zh"
+        intervals [12]:
+            xmin = 2.43644
+            xmax = 2.75801
+            text = "e"
+        intervals [13]:
+            xmin = 2.75801
+            xmax = 2.89845
+            text = "t"
+        intervals [14]:
+            xmin = 2.89845
+            xmax = 3.24829
+            text = "ian"
+        intervals [15]:
+            xmin = 3.24829
+            xmax = 3.33763
+            text = "k"
+        intervals [16]:
+            xmin = 3.33763
+            xmax = 3.48946
+            text = "ong"
+        intervals [17]:
+            xmin = 3.48946
+            xmax = 3.56843
+            text = "w"
+        intervals [18]:
+            xmin = 3.56843
+            xmax = 3.68794
+            text = "o"
+        intervals [19]:
+            xmin = 3.68794
+            xmax = 3.83631
+            text = "x"
+        intervals [20]:
+            xmin = 3.83631
+            xmax = 4.20842
+            text = "iang"
+        intervals [21]:
+            xmin = 4.20842
+            xmax = 4.33732
+            text = "q"
+        intervals [22]:
+            xmin = 4.33732
+            xmax = 4.46
+            text = "i"
+        intervals [23]:
+            xmin = 4.46
+            xmax = 4.6493
+            text = "AP"
+        intervals [24]:
+            xmin = 4.6493
+            xmax = 4.75595
+            text = "h"
+        intervals [25]:
+            xmin = 4.75595
+            xmax = 5.1375
+            text = "ua"
+        intervals [26]:
+            xmin = 5.1375
+            xmax = 5.21589
+            text = "b"
+        intervals [27]:
+            xmin = 5.21589
+            xmax = 5.55824
+            text = "an"
+        intervals [28]:
+            xmin = 5.55824
+            xmax = 5.69835
+            text = "sh"
+        intervals [29]:
+            xmin = 5.69835
+            xmax = 5.86941
+            text = "ir"
+        intervals [30]:
+            xmin = 5.86941
+            xmax = 5.92769
+            text = "zh"
+        intervals [31]:
+            xmin = 5.92769
+            xmax = 6.09875
+            text = "e"
+        intervals [32]:
+            xmin = 6.09875
+            xmax = 6.14703
+            text = "d"
+        intervals [33]:
+            xmin = 6.14703
+            xmax = 6.52844
+            text = "iao"
+        intervals [34]:
+            xmin = 6.52844
+            xmax = 6.60804
+            text = "l"
+        intervals [35]:
+            xmin = 6.60804
+            xmax = 6.94
+            text = "uo"
