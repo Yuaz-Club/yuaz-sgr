@@ -22,6 +22,7 @@ build/
 
 # 数据集
 opencpop/
+opencpop_segments.zip
 local_ckpt/
 local_audio/
 synthesis_test/
