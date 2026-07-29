@@ -29,11 +29,6 @@ yuaz-sgr/
 │   ├── checkpoint_300k.pt              # 预训练模型 (300K steps, 94MB)
 │   ├── infer_vsqx.py                   # VSQX 文件推理脚本
 │   └── example.py                      # 推理示例
-├── yuaz_sgr_finetune_inference/        # 微调推理包
-│   ├── yuaz_sgr/                       # 模型代码
-│   ├── freeze_final.pt                 # 微调模型 (94MB)
-│   ├── train_freeze.py                 # 微调脚本
-│   └── example.py                      # 推理示例
 ├── 示例.wav                            # VSQX 推理输出示例
 ├── 论文/                               # 参考论文
 ├── README.md                           # 中文文档
@@ -75,12 +70,11 @@ yuaz-sgr/
 
 ## 预训练模型
 
-本仓库包含两个预训练模型：
+本仓库包含已个预训练模型：
 
 | 模型 | 文件 | 大小 | 说明 |
 |------|------|------|------|
 | 基础模型 | `yuaz_sgr_inference/checkpoint_300k.pt` | 94MB | 300K 步训练，已提纯(仅保留权重) |
-| 微调模型 | `yuaz_sgr_finetune_inference/freeze_final.pt` | 94MB | 基于基础模型微调，冻结解码器优化发音清晰度 |
 
 ## 推理
 
@@ -90,10 +84,6 @@ cd yuaz_sgr_inference/
 pip install -r requirements.txt
 python example.py
 
-# 使用微调模型推理
-cd yuaz_sgr_finetune_inference/
-pip install -r requirements.txt
-python example.py
 ```
 
 ## 数据集
