@@ -29,11 +29,6 @@ yuaz-sgr/
 │   ├── checkpoint_300k.pt              # Pretrained model (300K steps, 94MB)
 │   ├── infer_vsqx.py                   # VSQX inference script
 │   └── example.py                      # Inference example
-├── yuaz_sgr_finetune_inference/        # Fine-tuning inference package
-│   ├── yuaz_sgr/                       # Model code
-│   ├── freeze_final.pt                 # Fine-tuned model (94MB)
-│   ├── train_freeze.py                 # Fine-tuning script
-│   └── example.py                      # Inference example
 ├── 示例.wav                            # VSQX inference demo output
 ├── 论文/                               # Reference paper
 ├── README.md                           # Chinese docs
@@ -75,12 +70,11 @@ Measured on **CPU (AMD Ryzen 5 3500U)**:
 
 ## Pretrained Models
 
-This repository includes two pretrained models:
+This repository includes one pretrained models:
 
 | Model | File | Size | Description |
 |-------|------|------|-------------|
 | Base Model | `yuaz_sgr_inference/checkpoint_300k.pt` | 94MB | 300K steps, purified (weights only) |
-| Fine-tuned Model | `yuaz_sgr_finetune_inference/freeze_final.pt` | 94MB | Fine-tuned with frozen decoder for better pronunciation |
 
 ## Inference
 
@@ -90,10 +84,6 @@ cd yuaz_sgr_inference/
 pip install -r requirements.txt
 python example.py
 
-# Inference with fine-tuned model
-cd yuaz_sgr_finetune_inference/
-pip install -r requirements.txt
-python example.py
 ```
 
 ## Dataset
