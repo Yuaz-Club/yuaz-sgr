@@ -1,6 +1,6 @@
 # YUAZ SGR — 推理包
 
-基于论文 *"YUAZ SGR: An Open-Source Singing Voice Synthesis System"* 的独立推理包。
+基于论文 *"YUAZ SGR"* 的独立推理包。
 
 ## 架构概览
 
