@@ -1,6 +1,18 @@
+<div align="center">
+
 # Yuaz SGR 1.2
 
+[![Release](https://img.shields.io/badge/release-v1.2-blue)](https://github.com/Yuaz-Club/yuaz-sgr)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+![Python](https://img.shields.io/badge/Python-3.10%2B-yellow)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.x-orange)
+
+**中文歌唱声音合成 · DDSP + 迭代残差精炼（IRR）**
+
+</div>
+
 Yuaz SGR (Singing Generative Refinement) — 基于 DDSP + **迭代残差精炼（IRR）** 的中文歌唱声音合成系统。
+
 
 ## 项目说明
 
