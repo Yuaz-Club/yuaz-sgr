@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.egg-info/
+build/
+dist/
+
+# 训练产物
+checkpoints*/
+logs*/
+tf-logs*/
+tb_audio/
+*.log
+*.jsonl
+
+# 数据（体积大，按需单独准备）
+data/
+preprocessed*/
+*.npz
+
+# 编辑器/系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

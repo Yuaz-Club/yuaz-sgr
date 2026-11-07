@@ -1,0 +1,59 @@
+encoder:
+  hidden_dim: 512
+  latent_dim: 128
+  n_mfcc: 30
+  n_fft: 1024
+  hop_length: 256
+  feature: logmel
+  n_mels: 160
+rvq:
+  num_quantizers: 8
+  codebook_size: 1024
+  codebook_dim: 128
+  commitment_weight: 1.0
+ddsp:
+  n_harmonics: 60
+  fft_size: 2048
+  hop_length: 512
+  hidden_dim: 128
+  n_mels: 256
+  spectral_residual_rank: 0
+  harm_rolloff: soft
+  harm_amp: fixed
+  harm_synth: stft
+  mel_pinv_clamp: false
+  silence_gate: true
+  env_unbounded: true
+  emformer_num_layers: 4
+  emformer_num_heads: 8
+  emformer_ffn_dim: 512
+  emformer_segment_length: 32
+  emformer_left_context: 8
+  emformer_right_context: 4
+  voicing_harmonic: 0.15
+  voicing_aperiodic: 0.6
+conditioning:
+  num_phonemes: 60
+  cond_dim: 128
+  phoneme_dim: 256
+  use_energy: false
+  f0_predictor: v2
+  f0_hidden_dim: 192
+decoder_cond: true
+temporal:
+  cond_dim: 128
+discriminator:
+  mpd_periods:
+  - 2
+  - 3
+  - 5
+  - 7
+  - 11
+  msd_scales: 3
+generator:
+  input_dim: 128
+  irr_steps: 4
+  irr_hidden: 384
+  irr_layers: 3
+  irr_max_steps: 8
+build_discriminator: true

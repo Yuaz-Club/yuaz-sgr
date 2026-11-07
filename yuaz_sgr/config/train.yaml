@@ -1,0 +1,57 @@
+optimizer:
+  name: Adam
+  lr: 1.5e-4
+  betas: [0.8, 0.999]
+  schedule:
+    warmup_steps: 1000
+    min_lr_ratio: 0.05
+
+ema_decay: 0.999
+
+# 判别器降频（纯训练组件，与推理无关）：实测 ge2≈1.5x、ge4≈2x 加速
+gan_every: 2
+
+batch_size: 16
+total_steps: 200000
+precision: bf16          # 不要用 fp16（joint 阶段会溢出，见 TRAINING.md §6.1）
+
+# AE 12k→20k 步（早期 4k 时解码器明显欠训）
+stages:
+  ae:
+    start: 0
+    end: 20000
+  gan:
+    start: 20000
+    end: 63000
+  joint:
+    start: 63000
+    end: 200000
+
+loss_weights:
+  stft: 1.0
+  mel: 4.0
+  stft_syn_scale: 2.0
+  ap_syn_scale: 1.0
+  rvq: 0.5
+  gan: 0.5
+  fm: 1.0
+  feature: 0.1
+  lag: 0.02
+  dur: 0.2
+  f0_loss: cents         # F0 预测用音分损失（见 TRAINING.md §6.1 的 clamp 顺序）
+  f0_pred: 0.5
+  f0_smooth: 0.05
+  # 清浊监督：实测 ap=0 优于 ap=150/60/20，重训置 0
+  ap: 0.0
+  silence: 5.0
+  ap_voiced_scale: 1.0
+  # 高频与辅音：hf_spec 单独开无效，必须和 cons_energy 一起
+  hf_spec: 0.3
+  hf_spec_ae: 0.3
+  cons_energy: 1.0
+  robust_latent_noise: 0.0
+  probe_steps: 1
+
+log_interval: 100
+save_interval: 2000
+eval_interval: 5000

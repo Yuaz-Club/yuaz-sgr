@@ -1,0 +1,602 @@
+{
+ "AP": {
+  "role": "vowel",
+  "n": 3549,
+  "ratio_p50": 1.0,
+  "ratio_p90": 1.1744245524296684,
+  "ratio_max": 30.0,
+  "frames_p50": 26.0,
+  "frames_p90": 39.0,
+  "frames_max": 90.0
+ },
+ "SP": {
+  "role": "vowel",
+  "n": 6573,
+  "ratio_p50": 1.0,
+  "ratio_p90": 1.0,
+  "ratio_max": 384.0,
+  "frames_p50": 7.0,
+  "frames_p90": 43.0,
+  "frames_max": 596.0
+ },
+ "a": {
+  "role": "vowel",
+  "n": 847,
+  "ratio_p50": 0.7391304347826086,
+  "ratio_p90": 1.231794871794872,
+  "ratio_max": 22.8,
+  "frames_p50": 24.0,
+  "frames_p90": 60.0,
+  "frames_max": 359.0
+ },
+ "ai": {
+  "role": "vowel",
+  "n": 1782,
+  "ratio_p50": 0.7777777777777778,
+  "ratio_p90": 1.1876615746180978,
+  "ratio_max": 10.0,
+  "frames_p50": 26.0,
+  "frames_p90": 53.0,
+  "frames_max": 289.0
+ },
+ "an": {
+  "role": "vowel",
+  "n": 1270,
+  "ratio_p50": 0.7593103448275862,
+  "ratio_p90": 1.3128289473684216,
+  "ratio_max": 21.0,
+  "frames_p50": 26.0,
+  "frames_p90": 58.0,
+  "frames_max": 280.0
+ },
+ "ang": {
+  "role": "vowel",
+  "n": 925,
+  "ratio_p50": 0.75,
+  "ratio_p90": 1.3629881154499155,
+  "ratio_max": 42.0,
+  "frames_p50": 28.0,
+  "frames_p90": 58.0,
+  "frames_max": 305.0
+ },
+ "ao": {
+  "role": "vowel",
+  "n": 958,
+  "ratio_p50": 0.7419354838709677,
+  "ratio_p90": 1.2063146997929615,
+  "ratio_max": 31.5,
+  "frames_p50": 25.0,
+  "frames_p90": 62.30000000000007,
+  "frames_max": 268.0
+ },
+ "b": {
+  "role": "consonant",
+  "n": 1427,
+  "ratio_p50": 0.20833333333333334,
+  "ratio_p90": 0.5,
+  "ratio_max": 6.6,
+  "frames_p50": 6.0,
+  "frames_p90": 13.0,
+  "frames_max": 64.0
+ },
+ "c": {
+  "role": "consonant",
+  "n": 397,
+  "ratio_p50": 0.3548387096774194,
+  "ratio_p90": 0.5691119691119693,
+  "ratio_max": 10.5,
+  "frames_p50": 12.0,
+  "frames_p90": 18.0,
+  "frames_max": 28.0
+ },
+ "ch": {
+  "role": "consonant",
+  "n": 569,
+  "ratio_p50": 0.3170731707317073,
+  "ratio_p90": 0.5263157894736842,
+  "ratio_max": 19.0,
+  "frames_p50": 12.0,
+  "frames_p90": 18.0,
+  "frames_max": 31.0
+ },
+ "d": {
+  "role": "consonant",
+  "n": 2923,
+  "ratio_p50": 0.175,
+  "ratio_p90": 0.4318181818181818,
+  "ratio_max": 8.0,
+  "frames_p50": 5.0,
+  "frames_p90": 12.0,
+  "frames_max": 39.0
+ },
+ "e": {
+  "role": "vowel",
+  "n": 3122,
+  "ratio_p50": 0.7368421052631579,
+  "ratio_p90": 1.0,
+  "ratio_max": 19.4,
+  "frames_p50": 21.0,
+  "frames_p90": 48.0,
+  "frames_max": 341.0
+ },
+ "ei": {
+  "role": "vowel",
+  "n": 982,
+  "ratio_p50": 0.71875,
+  "ratio_p90": 1.0,
+  "ratio_max": 12.285714285714286,
+  "frames_p50": 24.0,
+  "frames_p90": 46.0,
+  "frames_max": 163.0
+ },
+ "en": {
+  "role": "vowel",
+  "n": 1024,
+  "ratio_p50": 0.71875,
+  "ratio_p90": 1.0,
+  "ratio_max": 22.333333333333332,
+  "frames_p50": 25.0,
+  "frames_p90": 47.700000000000045,
+  "frames_max": 258.0
+ },
+ "eng": {
+  "role": "vowel",
+  "n": 910,
+  "ratio_p50": 0.7202941176470588,
+  "ratio_p90": 1.0,
+  "ratio_max": 11.6,
+  "frames_p50": 26.0,
+  "frames_p90": 52.0,
+  "frames_max": 204.0
+ },
+ "er": {
+  "role": "vowel",
+  "n": 81,
+  "ratio_p50": 1.0,
+  "ratio_p90": 1.1428571428571428,
+  "ratio_max": 2.1578947368421053,
+  "frames_p50": 30.0,
+  "frames_p90": 42.0,
+  "frames_max": 51.0
+ },
+ "f": {
+  "role": "consonant",
+  "n": 645,
+  "ratio_p50": 0.3333333333333333,
+  "ratio_p90": 0.5833333333333334,
+  "ratio_max": 5.0,
+  "frames_p50": 14.0,
+  "frames_p90": 19.0,
+  "frames_max": 27.0
+ },
+ "g": {
+  "role": "consonant",
+  "n": 1021,
+  "ratio_p50": 0.16666666666666666,
+  "ratio_p90": 0.4375,
+  "ratio_max": 7.0,
+  "frames_p50": 4.0,
+  "frames_p90": 14.0,
+  "frames_max": 78.0
+ },
+ "h": {
+  "role": "consonant",
+  "n": 1454,
+  "ratio_p50": 0.3142857142857143,
+  "ratio_p90": 0.5151515151515151,
+  "ratio_max": 17.0,
+  "frames_p50": 11.0,
+  "frames_p90": 16.700000000000045,
+  "frames_max": 39.0
+ },
+ "i": {
+  "role": "vowel",
+  "n": 4828,
+  "ratio_p50": 0.698262952979934,
+  "ratio_p90": 1.0,
+  "ratio_max": 18.666666666666668,
+  "frames_p50": 22.0,
+  "frames_p90": 50.0,
+  "frames_max": 346.0
+ },
+ "ia": {
+  "role": "vowel",
+  "n": 201,
+  "ratio_p50": 0.7037037037037037,
+  "ratio_p90": 1.3333333333333333,
+  "ratio_max": 4.428571428571429,
+  "frames_p50": 28.0,
+  "frames_p90": 61.0,
+  "frames_max": 104.0
+ },
+ "ian": {
+  "role": "vowel",
+  "n": 1575,
+  "ratio_p50": 0.7903225806451613,
+  "ratio_p90": 1.5783870967741942,
+  "ratio_max": 42.0,
+  "frames_p50": 30.0,
+  "frames_p90": 82.0,
+  "frames_max": 356.0
+ },
+ "iang": {
+  "role": "vowel",
+  "n": 575,
+  "ratio_p50": 0.6857142857142857,
+  "ratio_p90": 1.1757575757575762,
+  "ratio_max": 10.571428571428571,
+  "frames_p50": 28.0,
+  "frames_p90": 56.0,
+  "frames_max": 180.0
+ },
+ "iao": {
+  "role": "vowel",
+  "n": 478,
+  "ratio_p50": 0.7142857142857143,
+  "ratio_p90": 1.2423188405797105,
+  "ratio_max": 9.25,
+  "frames_p50": 25.0,
+  "frames_p90": 58.0,
+  "frames_max": 277.0
+ },
+ "ie": {
+  "role": "vowel",
+  "n": 439,
+  "ratio_p50": 0.7352941176470589,
+  "ratio_p90": 1.297837837837838,
+  "ratio_max": 25.5,
+  "frames_p50": 27.0,
+  "frames_p90": 66.0,
+  "frames_max": 294.0
+ },
+ "in": {
+  "role": "vowel",
+  "n": 523,
+  "ratio_p50": 0.7123287671232876,
+  "ratio_p90": 1.2135338345864661,
+  "ratio_max": 11.0,
+  "frames_p50": 27.0,
+  "frames_p90": 56.0,
+  "frames_max": 236.0
+ },
+ "ing": {
+  "role": "vowel",
+  "n": 985,
+  "ratio_p50": 0.7428571428571429,
+  "ratio_p90": 1.1888563049853376,
+  "ratio_max": 16.625,
+  "frames_p50": 29.0,
+  "frames_p90": 77.0,
+  "frames_max": 303.0
+ },
+ "iong": {
+  "role": "vowel",
+  "n": 21,
+  "ratio_p50": 0.5897435897435898,
+  "ratio_p90": 1.0,
+  "ratio_max": 3.625,
+  "frames_p50": 26.0,
+  "frames_p90": 44.0,
+  "frames_max": 87.0
+ },
+ "iu": {
+  "role": "vowel",
+  "n": 432,
+  "ratio_p50": 0.7523584905660378,
+  "ratio_p90": 1.1129370629370638,
+  "ratio_max": 30.0,
+  "frames_p50": 25.0,
+  "frames_p90": 54.900000000000034,
+  "frames_max": 193.0
+ },
+ "j": {
+  "role": "consonant",
+  "n": 1605,
+  "ratio_p50": 0.25925925925925924,
+  "ratio_p90": 0.48148148148148145,
+  "ratio_max": 10.0,
+  "frames_p50": 9.0,
+  "frames_p90": 14.0,
+  "frames_max": 31.0
+ },
+ "k": {
+  "role": "consonant",
+  "n": 647,
+  "ratio_p50": 0.23809523809523808,
+  "ratio_p90": 0.49552238805970134,
+  "ratio_max": 5.0,
+  "frames_p50": 8.0,
+  "frames_p90": 14.0,
+  "frames_max": 33.0
+ },
+ "l": {
+  "role": "consonant",
+  "n": 1478,
+  "ratio_p50": 0.24,
+  "ratio_p90": 0.4773333333333331,
+  "ratio_max": 12.0,
+  "frames_p50": 8.0,
+  "frames_p90": 16.0,
+  "frames_max": 74.0
+ },
+ "m": {
+  "role": "consonant",
+  "n": 1226,
+  "ratio_p50": 0.2916666666666667,
+  "ratio_p90": 0.5779352226720648,
+  "ratio_max": 18.0,
+  "frames_p50": 10.0,
+  "frames_p90": 19.0,
+  "frames_max": 43.0
+ },
+ "n": {
+  "role": "consonant",
+  "n": 1749,
+  "ratio_p50": 0.2777777777777778,
+  "ratio_p90": 0.5,
+  "ratio_max": 21.0,
+  "frames_p50": 9.0,
+  "frames_p90": 17.0,
+  "frames_max": 52.0
+ },
+ "o": {
+  "role": "vowel",
+  "n": 1352,
+  "ratio_p50": 0.7096774193548387,
+  "ratio_p90": 0.9653940886699509,
+  "ratio_max": 33.0,
+  "frames_p50": 21.0,
+  "frames_p90": 43.0,
+  "frames_max": 206.0
+ },
+ "ong": {
+  "role": "vowel",
+  "n": 876,
+  "ratio_p50": 0.7663120567375887,
+  "ratio_p90": 1.2320512820512821,
+  "ratio_max": 10.333333333333334,
+  "frames_p50": 27.0,
+  "frames_p90": 52.0,
+  "frames_max": 148.0
+ },
+ "ou": {
+  "role": "vowel",
+  "n": 1256,
+  "ratio_p50": 0.7368421052631579,
+  "ratio_p90": 1.1526806526806528,
+  "ratio_max": 27.0,
+  "frames_p50": 25.0,
+  "frames_p90": 50.0,
+  "frames_max": 250.0
+ },
+ "p": {
+  "role": "consonant",
+  "n": 317,
+  "ratio_p50": 0.2608695652173913,
+  "ratio_p90": 0.5225672877846792,
+  "ratio_max": 5.5,
+  "frames_p50": 8.0,
+  "frames_p90": 15.0,
+  "frames_max": 33.0
+ },
+ "q": {
+  "role": "consonant",
+  "n": 1143,
+  "ratio_p50": 0.35294117647058826,
+  "ratio_p90": 0.6333333333333333,
+  "ratio_max": 8.0,
+  "frames_p50": 13.0,
+  "frames_p90": 20.0,
+  "frames_max": 30.0
+ },
+ "r": {
+  "role": "consonant",
+  "n": 615,
+  "ratio_p50": 0.26666666666666666,
+  "ratio_p90": 0.5172413793103449,
+  "ratio_max": 2.5,
+  "frames_p50": 9.0,
+  "frames_p90": 16.0,
+  "frames_max": 73.0
+ },
+ "s": {
+  "role": "consonant",
+  "n": 378,
+  "ratio_p50": 0.3907741251325557,
+  "ratio_p90": 0.6923076923076923,
+  "ratio_max": 5.0,
+  "frames_p50": 15.0,
+  "frames_p90": 20.0,
+  "frames_max": 29.0
+ },
+ "sh": {
+  "role": "consonant",
+  "n": 1880,
+  "ratio_p50": 0.42105263157894735,
+  "ratio_p90": 0.7061274509803925,
+  "ratio_max": 18.0,
+  "frames_p50": 16.0,
+  "frames_p90": 22.0,
+  "frames_max": 46.0
+ },
+ "t": {
+  "role": "consonant",
+  "n": 867,
+  "ratio_p50": 0.24390243902439024,
+  "ratio_p90": 0.4642857142857143,
+  "ratio_max": 5.0,
+  "frames_p50": 8.0,
+  "frames_p90": 14.0,
+  "frames_max": 27.0
+ },
+ "u": {
+  "role": "vowel",
+  "n": 1532,
+  "ratio_p50": 0.7333333333333333,
+  "ratio_p90": 1.0,
+  "ratio_max": 76.0,
+  "frames_p50": 21.0,
+  "frames_p90": 41.0,
+  "frames_max": 313.0
+ },
+ "ua": {
+  "role": "vowel",
+  "n": 177,
+  "ratio_p50": 0.7560975609756098,
+  "ratio_p90": 1.4134469696969698,
+  "ratio_max": 9.5,
+  "frames_p50": 29.0,
+  "frames_p90": 62.0,
+  "frames_max": 262.0
+ },
+ "uai": {
+  "role": "vowel",
+  "n": 119,
+  "ratio_p50": 0.75,
+  "ratio_p90": 1.4407843137254903,
+  "ratio_max": 87.0,
+  "frames_p50": 23.0,
+  "frames_p90": 56.400000000000006,
+  "frames_max": 123.0
+ },
+ "uan": {
+  "role": "vowel",
+  "n": 278,
+  "ratio_p50": 0.7368421052631579,
+  "ratio_p90": 1.034047619047619,
+  "ratio_max": 5.85,
+  "frames_p50": 26.0,
+  "frames_p90": 64.30000000000001,
+  "frames_max": 165.0
+ },
+ "uang": {
+  "role": "vowel",
+  "n": 210,
+  "ratio_p50": 0.7954963235294117,
+  "ratio_p90": 1.324210526315789,
+  "ratio_max": 25.0,
+  "frames_p50": 29.0,
+  "frames_p90": 67.69999999999996,
+  "frames_max": 197.0
+ },
+ "ui": {
+  "role": "vowel",
+  "n": 718,
+  "ratio_p50": 0.72,
+  "ratio_p90": 1.1065853658536602,
+  "ratio_max": 10.0,
+  "frames_p50": 27.0,
+  "frames_p90": 47.0,
+  "frames_max": 301.0
+ },
+ "un": {
+  "role": "vowel",
+  "n": 111,
+  "ratio_p50": 0.7258064516129032,
+  "ratio_p90": 1.1578947368421053,
+  "ratio_max": 4.619047619047619,
+  "frames_p50": 27.0,
+  "frames_p90": 82.0,
+  "frames_max": 124.0
+ },
+ "uo": {
+  "role": "vowel",
+  "n": 964,
+  "ratio_p50": 0.761549395877754,
+  "ratio_p90": 1.1219512195121952,
+  "ratio_max": 8.0,
+  "frames_p50": 25.0,
+  "frames_p90": 54.700000000000045,
+  "frames_max": 199.0
+ },
+ "v": {
+  "role": "vowel",
+  "n": 578,
+  "ratio_p50": 0.6923076923076923,
+  "ratio_p90": 1.151920768307324,
+  "ratio_max": 7.9,
+  "frames_p50": 24.0,
+  "frames_p90": 57.30000000000007,
+  "frames_max": 299.0
+ },
+ "van": {
+  "role": "vowel",
+  "n": 344,
+  "ratio_p50": 0.762531328320802,
+  "ratio_p90": 1.656708407871198,
+  "ratio_max": 9.666666666666666,
+  "frames_p50": 28.0,
+  "frames_p90": 74.79999999999995,
+  "frames_max": 255.0
+ },
+ "ve": {
+  "role": "vowel",
+  "n": 285,
+  "ratio_p50": 0.6818181818181818,
+  "ratio_p90": 1.0,
+  "ratio_max": 3.857142857142857,
+  "frames_p50": 24.0,
+  "frames_p90": 45.0,
+  "frames_max": 106.0
+ },
+ "vn": {
+  "role": "vowel",
+  "n": 81,
+  "ratio_p50": 0.7352941176470589,
+  "ratio_p90": 1.0,
+  "ratio_max": 1.9090909090909092,
+  "frames_p50": 28.0,
+  "frames_p90": 48.0,
+  "frames_max": 96.0
+ },
+ "w": {
+  "role": "consonant",
+  "n": 1925,
+  "ratio_p50": 0.2727272727272727,
+  "ratio_p90": 0.4782608695652174,
+  "ratio_max": 9.75,
+  "frames_p50": 8.0,
+  "frames_p90": 14.0,
+  "frames_max": 39.0
+ },
+ "x": {
+  "role": "consonant",
+  "n": 1665,
+  "ratio_p50": 0.3902439024390244,
+  "ratio_p90": 0.7119047619047627,
+  "ratio_max": 22.0,
+  "frames_p50": 16.0,
+  "frames_p90": 21.0,
+  "frames_max": 38.0
+ },
+ "y": {
+  "role": "consonant",
+  "n": 2925,
+  "ratio_p50": 0.2777777777777778,
+  "ratio_p90": 0.5,
+  "ratio_max": 14.0,
+  "frames_p50": 9.0,
+  "frames_p90": 16.0,
+  "frames_max": 67.0
+ },
+ "z": {
+  "role": "consonant",
+  "n": 1060,
+  "ratio_p50": 0.2857142857142857,
+  "ratio_p90": 0.48014814814814816,
+  "ratio_max": 10.0,
+  "frames_p50": 10.0,
+  "frames_p90": 14.0,
+  "frames_max": 24.0
+ },
+ "zh": {
+  "role": "consonant",
+  "n": 1267,
+  "ratio_p50": 0.25,
+  "ratio_p90": 0.42857142857142855,
+  "ratio_max": 6.333333333333333,
+  "frames_p50": 8.0,
+  "frames_p90": 13.0,
+  "frames_max": 37.0
+ }
+}
